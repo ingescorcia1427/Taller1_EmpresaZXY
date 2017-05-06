@@ -28,18 +28,17 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="15dp"
         android:weightSum="1"
-        android:layout_marginTop="10dp">
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <TextView
             android:text="@string/genero"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView3" />
+            android:id="@+id/textView3"
+            android:layout_marginTop="20dp" />
 
         <Spinner
             android:layout_width="match_parent"
@@ -68,8 +67,18 @@
         <Spinner
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/cmbTipoMarca"
+            android:id="@+id/cmbMarca"
             android:layout_marginBottom="15dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/txtCantidad"
+            android:hint="@string/cantidad"
+            android:textAlignment="center"
+            android:fontFamily="monospace" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -82,31 +91,94 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/cmdCalcular"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="calcular" />
 
             <Button
                 android:text="@string/cancelar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/cmdCancelar"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="borrar" />
 
         </LinearLayout>
 
         <TextView
+            android:text="@string/detalle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/txtResultado"
-            android:layout_below="@+id/linearLayout"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginRight="27dp"
-            android:layout_marginEnd="27dp"
-            android:layout_marginTop="31dp"
+            android:id="@+id/textView6"
+            android:textAlignment="center"
             android:textStyle="normal|bold"
-            android:textAlignment="viewStart"
             android:textSize="18sp"
-            android:layout_weight="1.01" />
+            android:layout_marginBottom="15dp"
+            android:fontFamily="casual" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/vlr_unitario"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView7"
+                android:textSize="18sp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="casual"
+                android:layout_weight="1"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/txtValorUnitario"
+                android:layout_weight="1"
+                android:fontFamily="casual"
+                android:textAlignment="viewStart"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/vlr_total"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/textView9"
+                android:layout_weight="1"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="normal|bold"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:fontFamily="casual" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtResultado"
+                android:layout_below="@+id/linearLayout"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textStyle="normal|bold"
+                android:textAlignment="viewStart"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="casual" />
+        </LinearLayout>
 
     </LinearLayout>
 

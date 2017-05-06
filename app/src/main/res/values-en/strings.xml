@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taller1_EmpresaZXY</string>
+    <string name="adidas">Adidas</string>
+    <string name="calcular">CALCULATE</string>
+    <string name="cancelar">CANCEL</string>
+    <string name="cantidad">Enter Quantity</string>
+    <string name="clasico">Classic</string>
+    <string name="detalle">Purchase Detail</string>
+    <string name="genero">Gender:</string>
+    <string name="hombre">Men\'s shoes</string>
+    <string name="marca">Brand:</string>
+    <string name="mujer">Women\'s footwear</string>
+    <string name="nike">Nike</string>
+    <string name="puma">Puma</string>
+    <string name="tipo_zapato">Shoe Type:</string>
+    <string name="titulo">CALZADO ZXY APP</string>
+    <string name="vlr_total">Total value</string>
+    <string name="vlr_unitario">Total unitary</string>
+    <string name="zapatilla">Shoe</string>
+    <string name="error_cant">For please, Enter quantity</string>
+</resources>

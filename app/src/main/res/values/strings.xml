@@ -1,9 +1,40 @@
 <resources>
     <string name="app_name">Taller1_EmpresaZXY</string>
     <string name="titulo">CALZADO ZXY APP</string>
+
+    <string name="hombre">Calzado Hombres</string>
+    <string name="mujer">Calzado Mujeres</string>
     <string name="genero">Género:</string>
+    <string-array name="opc_genero">
+        <item>@string/hombre</item>
+        <item>@string/mujer</item>
+    </string-array>
+    
+    <string name="zapatilla">Zapatilla</string>
+    <string name="clasico">Clásico</string>
     <string name="tipo_zapato">Tipo de Zapato:</string>
+    <string-array name="opc_tipo">
+        <item>@string/zapatilla</item>
+        <item>@string/clasico</item>
+    </string-array>
+
+    <string name="nike">Nike</string>
+    <string name="adidas">Adidas</string>
+    <string name="puma">Puma</string>
     <string name="marca">Marca:</string>
+    <string-array name="opc_marca">
+        <item>@string/nike</item>
+        <item>@string/adidas</item>
+        <item>@string/puma</item>
+    </string-array>
+
+    <string name="cantidad">Digite cantidad</string>
     <string name="calcular">CALCULAR</string>
     <string name="cancelar">CANCELAR</string>
+    <string name="detalle">Detalle de Compra</string>
+    <string name="vlr_unitario">Valor Unitario:</string>
+    <string name="vlr_total">Valor Total:</string>
+
+    <string name="error_cant">Por favor, Digite cantidad</string>
+
 </resources>
