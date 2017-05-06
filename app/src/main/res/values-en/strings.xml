@@ -15,8 +15,9 @@
     <string name="puma">Puma</string>
     <string name="tipo_zapato">Shoe Type:</string>
     <string name="titulo">CALZADO ZXY APP</string>
-    <string name="vlr_total">Total value</string>
-    <string name="vlr_unitario">Total unitary</string>
+    <string name="vlr_total">Total value:</string>
+    <string name="vlr_unitario">Total unitary:</string>
     <string name="zapatilla">Shoe</string>
     <string name="error_cant">For please, Enter quantity</string>
+    <string name="firma">Copyright © Ing. Leonard Escorcia</string>
 </resources>

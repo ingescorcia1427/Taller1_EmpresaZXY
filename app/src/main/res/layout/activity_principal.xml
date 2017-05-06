@@ -112,7 +112,6 @@
             android:textAlignment="center"
             android:textStyle="normal|bold"
             android:textSize="18sp"
-            android:layout_marginBottom="15dp"
             android:fontFamily="casual" />
 
         <LinearLayout
@@ -178,8 +177,22 @@
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="10dp"
                 android:fontFamily="casual" />
+
         </LinearLayout>
 
     </LinearLayout>
+
+    <TextView
+        android:text="@string/firma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:layout_marginTop="15dp" />
 
 </RelativeLayout>

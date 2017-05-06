@@ -36,5 +36,6 @@
     <string name="vlr_total">Valor Total:</string>
 
     <string name="error_cant">Por favor, Digite cantidad</string>
+    <string name="firma">Copyright © Ing. Leonard Escorcia</string>
 
 </resources>
