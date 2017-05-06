@@ -38,37 +38,43 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/textView3"
-            android:layout_marginTop="20dp" />
+            android:layout_marginTop="20dp"
+            android:textSize="18sp" />
 
         <Spinner
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/cmbSexo"
-            android:layout_marginBottom="15dp" />
+            android:layout_marginBottom="15dp"
+            android:scrollbarSize="20dp" />
 
         <TextView
             android:text="@string/tipo_zapato"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView4" />
+            android:id="@+id/textView4"
+            android:textSize="18sp" />
 
         <Spinner
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/cmbTipoZapato"
-            android:layout_marginBottom="15dp" />
+            android:layout_marginBottom="15dp"
+            android:scrollbarSize="20dp" />
 
         <TextView
             android:text="@string/marca"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView5" />
+            android:id="@+id/textView5"
+            android:textSize="18sp" />
 
         <Spinner
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/cmbMarca"
-            android:layout_marginBottom="15dp" />
+            android:layout_marginBottom="15dp"
+            android:scrollbarSize="20dp" />
 
         <EditText
             android:layout_width="match_parent"
