@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Taller1_EmpresaZXY</string>
+    <string name="titulo">CALZADO ZXY APP</string>
+    <string name="genero">Género:</string>
+    <string name="tipo_zapato">Tipo de Zapato:</string>
+    <string name="marca">Marca:</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="cancelar">CANCELAR</string>
+</resources>
